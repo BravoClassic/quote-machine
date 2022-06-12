@@ -1,0 +1,19 @@
+@use 'variables';
+
+.buttons button, a{
+    padding: 1em 1em;
+    background-color: variables.$new_quote;
+    border: none;
+    color: #fff;
+    font-size: 26px;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+
+.buttons a:first-child{
+    color: variables.$twitter;
+}
+
+.buttons button:hover{
+    background-color: variables.$hover;
+}
